@@ -5,13 +5,15 @@
 
 Adjacency List | Adjacency Matrix
 --- | ---
-takes V + E memory space | takes V^2 memory space
-suitable for sparse graphs | suitable for dense graphs
-checking if two edges are directly connected is more expensive | checking if two edges are directly connected is cheap
+takes |V| + |E| memory space | takes |V|^2 memory space.
+suitable for sparse graphs | suitable for dense graphs.
+checking if two edges are directly connected is more expensive | checking if two edges are directly connected is cheap.
 
 ### Examples:
 
-Let's build a representation for the following graph in Python.
+Let's build a representation for the following graph in Python: 
++ number of vertices: |V| = 5
++ number of edges: |E| = 5 
 
 ```
   0 -- 1
@@ -29,6 +31,7 @@ x = [
 	[1, 2, 4],
 	[3]
 ]
+# x holds |E| + |V| values (i.e. 5 + 5 = 10).
 ```
 
 #### Adjacency matrix:
@@ -41,4 +44,6 @@ x = [
 	[0, 1, 1, 0, 1],
 	[0, 0, 0, 1, 0]
 ]
+# x holds |V|^2 values (i.e. 5 * 5 = 25).
 ```
+
