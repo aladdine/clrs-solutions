@@ -23,8 +23,8 @@ Let's build a representation for the following graph in Python.
 
 ```python
 x = [
-	[1, 2],
-	[0, 3],
+	[1, 2],  # Vertix 0 is connected to vertices 1 and 2.
+	[0, 3],  # Vertix 1 is connected to vertices 0 and 3.
 	[0, 3],
 	[1, 2, 4],
 	[3]
@@ -35,8 +35,8 @@ x = [
 
 ```python
 x = [
-	[0, 1, 1, 0, 0],
-	[1, 0, 0, 1, 0],
+	[0, 1, 1, 0, 0], # Vertix 0 is connected to vertices 1 and 2.
+	[1, 0, 0, 1, 0], # Vertix 1 is connected to vertices 0 and 3.
 	[1, 0, 0, 1, 0],
 	[0, 1, 1, 0, 1],
 	[0, 0, 0, 1, 0]
