@@ -5,8 +5,8 @@
 
 Adjacency List | Adjacency Matrix
 --- | ---
-takes \|V\| + \|E\| memory space | takes \|V\|^2 memory space.
-suitable for sparse graphs | suitable for dense graphs.
+takes \|V\| + \|E\| memory space | takes \|V\|^2 memory space
+suitable for sparse graphs | suitable for dense graphs
 checking if two edges are directly connected is more expensive | checking if two edges are directly connected is cheap.
 
 ### Examples:
