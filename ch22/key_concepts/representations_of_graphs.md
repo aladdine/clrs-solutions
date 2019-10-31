@@ -11,6 +11,8 @@ checking if two edges are directly connected is more expensive | checking if two
 
 ### Examples:
 
+Let's build a representation for the following graph in Python.
+
 ```
   0 -- 1
   |    |
